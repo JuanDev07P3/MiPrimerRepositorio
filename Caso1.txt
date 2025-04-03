@@ -20,3 +20,5 @@ o	5A: Encargado pueda realizar la cancelación de compra y generar o solicitar u
 •	Excepciones:
 o	4A: si el proveedor no esta disponible, el modulo despliegue no disponible y seleccione otro proveedor.
 o	6A: Si el modulo no permite ingresar producto, que se habilite botón para ingresar en hoja de Excel.
+•	Resultado esperado:
+o	Encargado complete el proceso de cotizaciones y compras detalladas a proveedores.
