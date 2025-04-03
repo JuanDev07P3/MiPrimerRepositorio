@@ -17,3 +17,6 @@ o	Propietario o encargado deben tener acceso a sistema de ventas
 •	Flujos alternativos:
 o	3A: Encargado pueda agregar una segunda cotización para un solo envío de productos
 o	5A: Encargado pueda realizar la cancelación de compra y generar o solicitar una nueva orden
+•	Excepciones:
+o	4A: si el proveedor no esta disponible, el modulo despliegue no disponible y seleccione otro proveedor.
+o	6A: Si el modulo no permite ingresar producto, que se habilite botón para ingresar en hoja de Excel.
