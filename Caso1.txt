@@ -14,3 +14,5 @@ o	Propietario o encargado deben tener acceso a sistema de ventas
 4.	Selecciona lista de proveedores en sistema.
 5.	Genera orden y envía la cotización de productos a proveedores por medio de correo electrónico.	 
 6.	Realizar recepción de proveedor e ingresar productos a sistema inventario.
+•	Flujos alternativos:
+o	3A: Encargado pueda agregar una segunda cotización para un solo envío de productos
