@@ -16,3 +16,4 @@ o	Propietario o encargado deben tener acceso a sistema de ventas
 6.	Realizar recepción de proveedor e ingresar productos a sistema inventario.
 •	Flujos alternativos:
 o	3A: Encargado pueda agregar una segunda cotización para un solo envío de productos
+o	5A: Encargado pueda realizar la cancelación de compra y generar o solicitar una nueva orden
