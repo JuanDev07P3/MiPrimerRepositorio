@@ -1,0 +1,16 @@
+Modulo compras:
+Descripción
+Este caso describirá sobre el proceso de adquisición de productos para negocio de computo.
+Elementos del Caso de Uso
+•	Nombre: Modulo compras.
+•	Actor: Encargado
+•	Descripción breve: El propietario gestionara las compras de producto en cantidades grandes de lotes de equipo de cómputo y accesorios de computación para la venta final a clientes.
+•	Precondiciones:
+o	Propietario o encargado deben tener acceso a sistema de ventas
+•	Flujo básico de eventos:
+1.	Encargado ejecuta sistema de ventas.
+2.	Selecciona el módulo de compras.
+3.	Encargado ingresa solicitud de compra de productos.
+4.	Selecciona lista de proveedores en sistema.
+5.	Genera orden y envía la cotización de productos a proveedores por medio de correo electrónico.	 
+6.	Realizar recepción de proveedor e ingresar productos a sistema inventario.
