@@ -1,0 +1,29 @@
+public class GeneradorEmails {
+public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Bienvenido al generador de Emails");
+    
+                   
+        System.out.print("Ingresa tu nombre: ");
+        String nombreUsuario = scanner.nextLine();
+        var nombreNormalizado = nombreUsuario.strip();
+        nombreNormalizado = nombreNormalizado.replace(" ",".");
+        nombreNormalizado = nombreNormalizado.toLowerCase();
+        
+        System.out.print("Ingresa el nombre de la empresa: ");
+        String nombreEmpresa = scanner.nextLine();
+        var textoEmpresa = nombreEmpresa.strip();
+        textoEmpresa = textoEmpresa.replace(" ",".");
+        textoEmpresa = textoEmpresa.toLowerCase();
+        
+        var dominio= ".com.mx";
+        
+        String correoElectronico = nombreNormalizado + "@" + textoEmpresa + dominio;
+        System.out.println("Nombre Colaborador: " + nombreNormalizado);
+        System.out.println("Nombre de la empresa: " + textoEmpresa);
+        System.out.println("Correo electronico generado: " + correoElectronico);
+
+        scanner.close();
+    }
+}
